@@ -1,0 +1,68 @@
+.padre{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.header{
+    background-color: #DD1A1A;
+    height: 100px;
+}
+.logo{
+    position: relative;
+    width: 431px;
+    height: 76px;
+    margin-top: 47px;
+    margin-left: 133px;
+}
+.linea{
+    background-color:#0C0C0C;
+    height: 40px;
+}
+.color__welcome{
+    color: #DD1A1A;
+    font-weight: 550;
+}
+.welcome{
+    font-size: 25px;
+    margin: 20px;
+    margin-left: 133px;
+}
+.bloque__2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 133px;
+    margin-right: 133px;
+    column-gap: 20px;
+}
+.select{
+    width: 100%;
+    height: 50px;
+    border-color: #ccc;
+    text-align: center;
+}
+.select:hover{
+    cursor: pointer;
+    background-color: rgb(223, 102, 102);
+    color: white;
+}
+.search{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 50px;
+    margin-bottom: 20px;
+    box-shadow: 10px 5px 5px  #ccc;
+}
+.input{
+    border: none;
+}
+.btn{
+    background-color: #DD1A1A;
+    color: white;
+}
+.bloque__pokemons{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 40px;
+    margin-left: 133px;
+    margin-right: 133px;
+    margin-top: 40px;
+}
