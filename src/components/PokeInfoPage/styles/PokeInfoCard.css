@@ -146,6 +146,9 @@
 .psychic-back{
     background-color: #D13E3E ;
 }
+.flying-back{
+    background-color: #6FBEDF;
+}
 .poke__bloque_name{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
